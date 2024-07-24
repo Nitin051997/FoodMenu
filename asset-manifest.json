@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/FoodMenu/static/css/main.eca1aeb1.css",
+    "main.js": "/FoodMenu/static/js/main.81aff238.js",
+    "static/js/453.c6d51391.chunk.js": "/FoodMenu/static/js/453.c6d51391.chunk.js",
+    "static/media/Banner_4.jpg": "/FoodMenu/static/media/Banner_4.b88b518abe922a808c63.jpg",
+    "static/media/Banner_8.jpg": "/FoodMenu/static/media/Banner_8.689235d95b8ba55b6457.jpg",
+    "static/media/Banner_7.jpg": "/FoodMenu/static/media/Banner_7.1eb91d180a238f594568.jpg",
+    "static/media/Banner_6.jpg": "/FoodMenu/static/media/Banner_6.d09601cb3ce604f97c41.jpg",
+    "static/media/Banner_2.jpg": "/FoodMenu/static/media/Banner_2.0eeb98d9b9b3de68e176.jpg",
+    "static/media/Banner_3.jpg": "/FoodMenu/static/media/Banner_3.1bea4e6a9ca4defe04e5.jpg",
+    "static/media/Banner_1.jpg": "/FoodMenu/static/media/Banner_1.2b3b0912d03ed45d6bae.jpg",
+    "static/media/Banner_10.jpg": "/FoodMenu/static/media/Banner_10.c28784fdc744e99c02d5.jpg",
+    "static/media/Banner_9.jpg": "/FoodMenu/static/media/Banner_9.6d75375043ae18250100.jpg",
+    "static/media/Banner_5.jpg": "/FoodMenu/static/media/Banner_5.b6f13bdfdfb429b7d6ae.jpg",
+    "static/media/mumbaimap.png": "/FoodMenu/static/media/mumbaimap.df998336b56794b7275a.png",
+    "static/media/loader.gif": "/FoodMenu/static/media/loader.d74a1b65c048f755b9a3.gif",
+    "static/media/cart.gif": "/FoodMenu/static/media/cart.073b477953cdf01aae44.gif",
+    "index.html": "/FoodMenu/index.html",
+    "main.eca1aeb1.css.map": "/FoodMenu/static/css/main.eca1aeb1.css.map",
+    "main.81aff238.js.map": "/FoodMenu/static/js/main.81aff238.js.map",
+    "453.c6d51391.chunk.js.map": "/FoodMenu/static/js/453.c6d51391.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eca1aeb1.css",
+    "static/js/main.81aff238.js"
+  ]
+}
