@@ -13,6 +13,7 @@ const Lander = () => {
     <>
     <Routes>
         <Route path='/' element={<HomePage />} />
+        <Route path='/FoodMenu' element={<HomePage />} />
         <Route path='/menu' element={<FoodMenu />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path='/placeorder' element={<PlaceOrder />} />
