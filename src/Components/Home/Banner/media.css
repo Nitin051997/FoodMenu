@@ -1,0 +1,8 @@
+/*Mobile Display*/
+@media screen and (max-width: 481px) {
+    .app-home-banner-section {
+        max-width: 100%;
+        width: 100%;
+        height: 180px;
+    }
+}

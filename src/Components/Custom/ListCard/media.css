@@ -1,0 +1,48 @@
+/*Mobile Display*/
+@media screen and (max-width: 481px) {
+    .order-list-card {
+        height: auto;
+        padding: 0px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        margin-top: 5px;
+    }
+    .order-list-card-cover {
+        flex: 20%;
+        justify-content: left;
+    }
+    .order-list-card-details {
+        flex: 80%;
+        padding: 5px;
+        /* display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center; */
+    }
+    .order-list-card-cover-img {
+        width: 80px;
+        height: 80px;
+    }
+    .order-list-card-label {
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .order-list-card-price {
+        gap: 5px;
+        padding-top: 5px;
+    }
+    .order-list-card-price-label {
+        font-size: 12px;
+    }
+    .order-list-card-price-label-value {
+        font-size: 16px;
+    }
+    .order-list-card-price-btn {
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+    }
+}
+
+

@@ -1,0 +1,89 @@
+.app-home-choose-menu {
+    max-width: 1400px;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-color: white;
+    padding-top: 1px;
+}
+
+.choose-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+
+.app-home-choose-menu-title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.choose-menu-list-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 30px;
+}
+
+.choose-menu-list-card {
+    width: 600px;
+    height: 130px;
+    background-color: #F6F6F6;
+    display: flex;
+}
+
+.card-part-one {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-card-icons {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    z-index: 2;
+    transition: margin-bottom 0.3s ease;
+}
+
+.choose-menu-list-card:hover .menu-card-icons {
+    margin-bottom: 10px;
+}
+
+.choose-menu-list-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #FFC300;
+    position: relative;
+    z-index: 1;
+    top: 35px;
+    transition: transform 0.3s ease;
+}
+
+.choose-menu-list-card:hover .choose-menu-list-circle {
+    transform: scale(1.4); /* Zoom-in effect */
+}
+
+.card-part-two {
+    flex: 80%;
+    margin: 30px;
+}
+
+.choose-menu-list-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #313131;
+}
+
+.choose-menu-list-tag {
+    font-size: 18px;
+    color: #6D6D6D;
+}

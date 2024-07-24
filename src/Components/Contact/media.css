@@ -1,0 +1,33 @@
+/*Mobile Display*/
+@media screen and (max-width: 481px) {
+    .conatct-container {
+        width: auto;
+        height: auto;
+    }
+    .conatct-details-container{
+        flex-direction: column;
+    }
+    .conatct-details-map {
+        margin-top: 0px;
+        height: 400px;
+        padding-left: 30px;
+    }
+    .conatct-details-location-icon {
+        height: 30px;
+        width: 30px;
+        right: 145px;
+        top: 22px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .conatct-details-map {
+        margin-top: 0px;
+        height: 300px;
+        padding-left: 30px;
+    }
+    .conatct-details-location-icon {
+        right: 115px;
+        top: 14px;
+    }
+}

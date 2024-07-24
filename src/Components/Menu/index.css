@@ -1,0 +1,83 @@
+.menu-banner {
+    max-width: 1400px;
+    width: 100%;
+    height: 200px;
+    background-color: #F8F8F8;
+    padding-top: 1px;
+}
+
+.menu-banner-container {
+    margin: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-banner-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.menu-banner-btn {
+    width: 150px;
+    height: 50px;
+    background-color: #FFC300;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.menu-banner-home {
+    color: #F8F8F8;
+}
+
+.menu-banner-home:hover {
+    color: black;
+}
+
+.menu-banner-menu {
+    color: black;
+    cursor: not-allowed;
+}
+
+.menu-type-food {
+    max-width: 1400px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+
+.menu-food-title-container {
+    padding-left: 50px;
+}
+
+.menu-food-title {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-list-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 50px;
+}

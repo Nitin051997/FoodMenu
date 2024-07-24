@@ -1,0 +1,6 @@
+[
+    {"typeMenu": "starter", "label": "menu_list/starters", "menutitle": "Starters", "menutagline": "Savor the flavors of plant-based delights."},
+    {"typeMenu": "food", "label": "menu_list/main", "menutitle": "Main Dishes", "menutagline": "From farm to table, embracing the vegetarian lifestyle."},
+    {"typeMenu": "drink", "label": "menu_list/drinks", "menutitle": "Drinks", "menutagline": "Sip the Unseen."},
+    {"typeMenu": "dessert", "label": "menu_list/desserts", "menutitle": "Desserts", "menutagline": "Discover the herbivore's paradise."}
+]

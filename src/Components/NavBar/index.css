@@ -1,0 +1,126 @@
+#navBar {
+    width: 100%; /* Ensures the nav spans the full width of the viewport */
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    z-index: 9999;
+    position: fixed; /* Keeps the nav at the top of the viewport */
+    top: 0;
+    left: 0;
+}
+
+.app-nav-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.app-icon {
+    width: auto;
+    height: 60px;
+}
+
+.app-title {
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app-sub-title {
+    color: #FFC300;
+}
+
+.app-nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav-to-path {
+    font-size: 25px;
+    font-weight: 600;
+    transition: transform 0.3s;
+}
+
+.nav-to-path:hover {
+    transform: scale(1.2); /* Zoom-in effect */
+}
+
+.nav-to-path:hover {
+    color: #FFC300;
+    font-size: 25.5px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.app-nav-bag {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.app-cart-icon {
+    width: 30px;
+    height: 30px;
+    padding-bottom: 4px;
+    position: absolute;
+}
+
+.app-cart-badge {
+    width: 20px;
+    height: 20px;
+    background-color: #FFC300;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+
+/*Mobile CSS*/
+.mob-desktop-icon-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.mob-app-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.mob-menu-launcher li {
+    list-style: none;
+}
+
+.mob-menu-launcher {
+    display: flex;
+    padding: 8px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: black;
+    width: 130px;
+    height: 120px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.8 ease-in-out;
+}

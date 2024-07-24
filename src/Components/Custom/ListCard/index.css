@@ -1,0 +1,63 @@
+.order-list-card {
+    max-width: 1400px;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.order-list-card-cover {
+    flex: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.order-list-card-cover-img {
+    width: 200px;
+    height: 200px;
+}
+
+.order-list-card-details {
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.order-list-card-price {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.order-list-card-label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.order-list-card-price-label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.order-list-card-price-label-value {
+    color: #FFC300;
+    font-size: 40px;
+}
+
+.order-list-card-price-btn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+}

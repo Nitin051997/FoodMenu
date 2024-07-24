@@ -1,0 +1,29 @@
+.app-loader-container {
+    max-width: 1400px;
+    width: 100%;
+    height: 610px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-loader-container-img {
+    width: 60px;
+    height: 60px;
+}
+
+.app-loader-container-label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/*Mobile Display*/
+@media screen and (max-width: 481px) {
+    .app-loader-container {
+        height: 700px;
+    }
+}

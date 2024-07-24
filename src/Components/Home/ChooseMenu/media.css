@@ -1,0 +1,42 @@
+/*Mobile Display*/
+@media screen and (max-width: 481px) {
+    .choose-menu-list-container {
+        margin: 10px;
+        gap: 20px;
+    }
+    .app-home-choose-menu {
+        height: auto;
+    }
+    .app-home-choose-menu-title {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .choose-menu-list-card {
+        width: 600px;
+        height: auto;
+    }
+    .card-part-one {
+        flex: 30%;
+    }
+    .menu-card-icons {
+        width: 50px;
+        height: 50px;
+    }
+    .choose-menu-list-circle {
+        width: 15px;
+        height: 15px;
+        top: 25px;
+    }
+    .choose-menu-list-card:hover .menu-card-icons {
+        margin-bottom: 8px;
+    }
+    .card-part-two {
+        flex: 70%;
+    }
+    .choose-menu-list-title {
+        font-size: 20px;
+    }
+    .choose-menu-list-tag {
+        font-size: 13px;
+    }
+}

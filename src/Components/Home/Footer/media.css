@@ -1,0 +1,13 @@
+/*Mobile Display*/
+@media screen and (max-width: 481px) {
+    .home-footer {
+        height: 140px;
+    }
+    .app-footer-title {
+        gap: 0px;
+    }
+    .home-app-copyright {
+        font-size: 13px;
+        margin-top: 1px;
+    }
+}

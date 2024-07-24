@@ -1,0 +1,31 @@
+/*Mobile Display*/
+@media screen and (max-width: 481px) {
+    .app-home-popular {
+        height: auto;
+    }
+    .app-home-popular-menu-title {
+        font-size: 25px;
+    }
+    .app-home-popular-sub-title {
+        font-size: 13px;
+    }
+    .menu-handler-btn {
+        width: 30px;
+    }
+    .app-home-popular-full-menu-btn {
+        width: 100px;
+        height: auto;
+        gap: 10px;
+    }
+    .full-menu-btn-icon {
+        width: 25px;
+        height: 25px;
+    }
+    .full-menu-btn-label {
+        font-size: 12px;
+    }
+    .popular-menu-list-container {
+        margin: 20px;
+        gap: 20px;
+    }
+}

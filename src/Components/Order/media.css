@@ -1,0 +1,12 @@
+/*Mobile Display*/
+@media screen and (max-width: 481px) {
+    .order-list-nodata {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .order-list-nodata {
+        height: 600px;
+    }
+}
