@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './index.css';
 import './media.css';
 import star_y from '../../../Assets/card/star_y.png'
@@ -66,6 +66,10 @@ const PlaceOrder = () => {
       for(let i = 1; i <= (5 - location?.state?.orderData?.ratting); i++){
         disableStar.push(<img src={star_g} alt='ratting' className='place-order-img-ratting'/>);
       }
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+      },[])
 
   return (
     <>

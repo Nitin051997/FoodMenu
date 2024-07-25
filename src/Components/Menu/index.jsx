@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import './index.css';
 import './media.css';
 import MenuList from '../Data/MenuList.json'
@@ -26,6 +26,10 @@ const FoodMenu = () => {
         setTimeout(() => {
             setloading(false);
         }, 1000)
+    },[])
+
+    useEffect(() => {
+        window.scrollTo(0,0);
     },[])
 
   return (

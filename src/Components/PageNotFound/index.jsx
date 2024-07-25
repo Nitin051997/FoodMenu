@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react'
+import React, { useMemo, useState } from 'react'
 import './index.css'
 import { useNavigate } from 'react-router-dom'
 import AppLoader from '../Custom/AppLoader';

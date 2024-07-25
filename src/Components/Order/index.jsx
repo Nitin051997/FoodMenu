@@ -31,6 +31,10 @@ const MyOrderLists = () => {
         }, 1000)
     },[placedOrderList])
 
+    useEffect(() => {
+        window.scrollTo(0,0);
+    },[])
+
   return (
     <>
     {loading ? 
@@ -40,7 +44,7 @@ const MyOrderLists = () => {
     <>
         { Array.isArray(placedOrderList)&&[...placedOrderList].length != 0 ? 
         <>
-            <section className='order-list-container' style={{height: `${window.innerHeight}px`}}>
+            <section className='order-list-container' style={{height: Array.isArray(placedOrderList)&&[...placedOrderList].length > 3 ? 'auto' : `${window.innerHeight}px`}}>
                 {[...placedOrderList].reverse().map((cardlist, index) => {
                     return <ListCard cardlist={cardlist} orderNum={index} handleCancleOrder={handleCancleOrder}/>
                 })}

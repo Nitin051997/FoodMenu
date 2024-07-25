@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import './index.css';
 import './media.css';
 import locationMap from '../../Assets/contact/mumbaimap.png'
@@ -15,6 +15,10 @@ const ContactPage = () => {
     setTimeout(() => {
         setloading(false);
     }, 500)
+},[])
+
+useEffect(() => {
+  window.scrollTo(0,0);
 },[])
 
   return (
