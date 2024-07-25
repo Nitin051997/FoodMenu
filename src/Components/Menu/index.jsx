@@ -61,7 +61,7 @@ const FoodMenu = () => {
                 </div>
             </div>
         </section>
-        <br />
+        {window.innerWidth > '481' ? (<br/>) : null}
         <section className='menu-type-food'>
             {location?.state?.category == 'starter' || location?.state?.category == 'All' ? (<div className='menu-container'>
                 <div className='menu-food-title-container'>

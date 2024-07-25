@@ -40,14 +40,14 @@ const MyOrderLists = () => {
     <>
         { Array.isArray(placedOrderList)&&[...placedOrderList].length != 0 ? 
         <>
-            <section className='order-list-container' style={{height: [...placedOrderList].length > 1 ? 'auto' : '410px'}}>
+            <section className='order-list-container' style={{height: `${window.innerHeight}px`}}>
                 {[...placedOrderList].reverse().map((cardlist, index) => {
                     return <ListCard cardlist={cardlist} orderNum={index} handleCancleOrder={handleCancleOrder}/>
                 })}
             </section>
         </> : 
         <>
-        <section className='order-list-nodata'>
+        <section className='order-list-nodata' style={{height: `${window.innerHeight}px`}}>
             <img src={NoOrder} alt='No Data' className='order-list-nodata-img'/>
             <span className='order-list-nodata-label'>No Order Found!</span>
         </section>

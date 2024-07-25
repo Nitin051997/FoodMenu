@@ -50,13 +50,24 @@ const AppNavBar = () => {
             },2000)
         }
     },[placedOrderList])
-  
+
     useEffect(() => {
       if(!placedOrderList){
           let storeOrderData = sessionStorage.getItem('storeOrderData');
           dispatch(Myfoodorders(JSON.parse(storeOrderData)))
       }
     },[])
+
+    useEffect(() => {
+        const handleBeforeUnload = (event) => {
+            event.preventDefault();
+            event.returnValue = 'Are your want to Reload the Pages, Any unsaved work might get lost.';
+        };
+        window.addEventListener('beforeunload', handleBeforeUnload);
+        return () => {
+          window.removeEventListener('beforeunload', handleBeforeUnload);
+        };
+    }, []);
 
   return (
     <>

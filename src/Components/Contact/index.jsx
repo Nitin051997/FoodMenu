@@ -24,7 +24,7 @@ const ContactPage = () => {
       <AppLoader />
     </> : 
     <>
-      <section className='conatct-container'>
+      <section className='conatct-container' style={{height: `${window.innerHeight}px`}}>
           <div className='conatct-details-container'>
               <div className='conatct-details-map-div'>
                   <img src={locationMap} alt='loaction map' className='conatct-details-map' />
@@ -34,7 +34,7 @@ const ContactPage = () => {
                   <div className='contact-details-title'>
                     <h2>Contact Us</h2>
                   </div>
-                  <input type="hidden" name="access_key" value="666f8d3e-b63f-45b6-b2f2-a77d5f2d0569"></input>
+                  <input type="hidden" name="access_key" value="###"></input>
                   <input type='text' name='name' placeholder='Your Name' className='contact-input' required/>
                   <input type='email' name='email' placeholder='Your Email' className='contact-input' required/>
                   <textarea name='message' placeholder='Your Message' className='contact-text-area' required/>
