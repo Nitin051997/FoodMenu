@@ -34,7 +34,7 @@ const MyOrderLists = () => {
     useEffect(() => {
         window.scrollTo(0,0);
     },[])
-
+    console.log("NitinConsole", window.innerWidth > 490);
   return (
     <>
     {loading ? 
@@ -44,7 +44,7 @@ const MyOrderLists = () => {
     <>
         { Array.isArray(placedOrderList)&&[...placedOrderList].length != 0 ? 
         <>
-            <section className='order-list-container' style={{height: Array.isArray(placedOrderList)&&[...placedOrderList].length > 5 ? 'auto' : `${window.innerHeight}px`}}>
+            <section className='order-list-container' style={{height: Array.isArray(placedOrderList)&&[...placedOrderList].length > (window.innerWidth > 490 ? 3 : 5) ? 'auto' : `${window.innerHeight}px`}}>
                 {[...placedOrderList].reverse().map((cardlist, index) => {
                     return <ListCard cardlist={cardlist} orderNum={index} handleCancleOrder={handleCancleOrder}/>
                 })}
