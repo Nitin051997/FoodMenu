@@ -28,7 +28,7 @@ useEffect(() => {
       <AppLoader />
     </> : 
     <>
-      <section className='conatct-container' style={{height: `${window.innerHeight}px`}}>
+      <section className='conatct-container' style={{height: `${window.innerHeight > 670 ? window.innerHeight : 800}px`}}>
           <div className='conatct-details-container'>
               <div className='conatct-details-map-div'>
                   <img src={locationMap} alt='loaction map' className='conatct-details-map' />
