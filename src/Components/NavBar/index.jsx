@@ -23,19 +23,16 @@ const AppNavBar = () => {
     const handleGoHome = (type) => {
         if(type == 'home'){
             navigate('/');
-            setMobMenu(false);
         }else if(type == 'menu'){
             navigate('/menu', {
                 state: {"category": 'All'}
             });
-            setMobMenu(false);
         }else if(type == 'contact'){
             navigate('/contact');
-            setMobMenu(false);
         }else if(type == 'orderlist'){
             navigate('/orderlist')
-            setMobMenu(false);
         }
+        setMobMenu(false);
     }
 
     const handleToggle = () => {
