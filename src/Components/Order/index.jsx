@@ -34,7 +34,7 @@ const MyOrderLists = () => {
     useEffect(() => {
         window.scrollTo(0,0);
     },[])
-    console.log("NitinConsole", window.innerWidth > 490);
+
   return (
     <>
     {loading ? 
